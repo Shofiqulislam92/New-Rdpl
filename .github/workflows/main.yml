@@ -5,10 +5,10 @@ on:
     inputs:
       authcode:
         description: '123456'
-        required: true
+        required: false
       pincode:
         description: '123456'
-        required: true
+        required: false
   
 jobs:
   build:
