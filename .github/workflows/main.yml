@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       authcode:
-        description: '123456'
-        required: false
+        description: 'Enter CRD code'
+        required: true
       pincode:
-        description: '123456'
-        required: false
+        description: 'Six digit Pinn'
+        required: true
   
 jobs:
   build:
